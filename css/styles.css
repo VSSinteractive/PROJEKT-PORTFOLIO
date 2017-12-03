@@ -73,6 +73,9 @@ section {
     color: #291f1a;
 }
 
+#main-nav .toggle, [id=drop] {
+    display: none;
+}
 
 /* Main Menu stop */
 
@@ -147,6 +150,8 @@ section {
 
 #skills p {
     text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #skills #skills-icons {

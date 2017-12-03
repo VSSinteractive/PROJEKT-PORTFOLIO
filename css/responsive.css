@@ -1,0 +1,95 @@
+    /* Big screen */
+
+    @media all and (max-width: 1200px) {
+        #portfolio .portfolio-items .portfolio-single-item {
+            width: 50%;
+        }
+        #portfolio .portfolio-items .portfolio-single-item:last-child {
+            width: 100%;
+        }
+    }
+
+    /* Medium screen */
+    @media all and (max-width: 992px) {
+
+        #main-nav ul {
+            display: none;
+        }
+
+        #main-nav #drop:checked + ul { 
+            display: block;
+          }
+
+        #main-nav .toggle {
+            display: block;
+            padding: 0 20px;
+            font-size: 20px;
+            line-height: 60px;
+            text-decoration: none;
+            text-align: right;
+            border: none;
+            background-color: #fff;
+            color: #1ac056;
+        }
+
+        #main-nav ul li {
+            display: block;
+            text-align: right;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 19px;
+        }
+
+        #about figure {
+            width: 100%;
+        }
+
+        #about figure img{
+            height: auto;
+            width: 100%;
+        }
+
+        #about article{
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #portfolio .portfolio-items .portfolio-single-item {
+            width: 100%;
+        }
+
+        #contact .contact-data {
+            width: 100%;
+            text-align: center;
+        }
+
+        #contact .contact-data h2{
+            text-align: center;
+        }
+
+        #contact .contact-form {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+         }
+    }
+
+    /* Small screen */
+
+    @media all and (max-width : 768px){
+        section {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    @media all and (max-width : 520px){
+        #main-header .main-header-content h1 {
+            font-size: 3em;
+        }
+        
+        #main-header .main-header-content h2{
+            font-size: 1.5em;
+        }
+    }
